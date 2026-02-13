@@ -1,0 +1,18 @@
+[project]
+name = "mcp-model-registry"
+version = "1.0.0"
+description = "MCP server for ML model lifecycle management — list, inspect, compare, and run inference on models via natural language."
+requires-python = ">=3.10"
+dependencies = [
+    "fastmcp>=2.0.0",
+    "scikit-learn>=1.3.0",
+    "joblib>=1.3.0",
+    "numpy>=1.24.0",
+    "python-dotenv>=1.0.0",
+    "datasets>=2.14.0",
+    "fastapi>=0.100.0",
+    "uvicorn>=0.23.0",
+]
+
+[project.scripts]
+ml-mcp-server = "server:mcp.run"

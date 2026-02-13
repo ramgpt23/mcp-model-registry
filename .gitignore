@@ -1,0 +1,42 @@
+# bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# environments
+.venv/
+venv/
+ENV/
+env/
+
+# model artifacts (usually ignored/LFS)
+saved_models/*.joblib
+saved_models/*.pkl
+saved_models/*.h5
+
+# datasets & cache
+data/
+.huggingface/
+.cache/
+
+# environment variables
+.env
+.env.local
+
+# logs
+*.log
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# distribution / build
+dist/
+build/
+*.egg-info/
+
+# OS specific
+.DS_Store
+Thumbs.db

@@ -4,7 +4,7 @@
 [![Python 3.10+](https://img.shields.io/badge/python-3.10%2B-blue.svg)](https://www.python.org/downloads/)
 [![Scikit-learn](https://img.shields.io/badge/scikit--learn-latest-orange)](https://scikit-learn.org/)
 
-A professional-grade **Model Context Protocol (MCP)** server that exposes Machine Learning model lifecycle operations—listing, inspecting, comparing, and running inference—directly to LLM clients (like Claude Desktop, Cursor, and IDEs).
+ **Model Context Protocol (MCP)** server that exposes Machine Learning model lifecycle operations—listing, inspecting, comparing, and running inference—directly to LLM clients (like Claude Desktop, Cursor, and IDEs).
 
 This project demonstrates how to bridge the gap between Large Language Models and specialized, local ML models through a standardized protocol.
 
